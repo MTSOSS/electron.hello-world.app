@@ -1,0 +1,97 @@
+{
+    "name": "Hello World!",
+    "description": "Hello World!",
+    "lang": "EN",
+    "dir": "auto",
+    "short_name": "Hello World!",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "landscape",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "shortcuts": [],
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "features": [
+        "Cross Platform",
+        "fast",
+        "simple"
+    ],
+    "categories": [
+        "utility"
+    ],
+    "screenshots": [
+        {
+            "src": "./assets/images/screenshot-1.png",
+            "sizes": "1280x800",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/images/screenshot-2.png",
+            "sizes": "800x1280",
+            "type": "image/png"
+        }
+    ],
+    "icons": [
+        {
+            "src": "./assets/icons/manifest/32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/icons/manifest/48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/icons/manifest/64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/icons/manifest/96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/icons/manifest/128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/icons/manifest/256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/icons/manifest/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/icons/maskable/maskable_icon_x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "./assets/icons/maskable/maskable_icon_x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "./assets/icons/maskable/maskable_icon_x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "./assets/icons/maskable/maskable_icon_x48.png",
+            "sizes": "48x48",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

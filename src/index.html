@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="128x128" href="./assets/icons/manifest/128.png">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="description" content="Hello World!">
+    <meta name="theme-color" content="#FFFFFF">
+</head>
+
+<body>
+    <div>
+        Hello World!
+    </div>
+    <script type="text/javascript" src="/src/script.js">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('serviceworker.js').then(function (registration) {
+                    // Registration was successful
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+                    // registration failed :(
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>
