@@ -12,6 +12,14 @@ module.exports = {
     ],
     makers: [
         {
+            name: '@electron-forge/maker-appx',
+            config: {
+                publisher: 'SatyamV7',
+                devCert: '',
+                certPass: ''
+            }
+        },
+        {
             name: '@electron-forge/maker-squirrel',
             config: {
                 // An URL to an ICO file to use as the application icon (displayed in Control Panel > Programs and Features).
