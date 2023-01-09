@@ -11,14 +11,14 @@ module.exports = {
         }
     ],
     makers: [
-        {
+        /*{
             name: '@electron-forge/maker-appx',
             config: {
                 publisher: 'SatyamV7',
                 devCert: '',
                 certPass: ''
             }
-        },
+        },*/
         {
             name: '@electron-forge/maker-squirrel',
             config: {
