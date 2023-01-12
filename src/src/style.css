@@ -9,9 +9,8 @@
 }
 
 html {
-    overflow: overlay;
-    overflow: overlay;
     height: 100%;
+    overflow: overlay;
     width: 100%;
 }
 
@@ -23,6 +22,21 @@ body {
     justify-content: center;
     align-items: center;
     font-family: SPOTNIK;
-    font-family: SPOTNIK;
     font-size: 32px;
+}
+
+@media (prefers-color-scheme: light) {
+
+    body {
+        color: #3b3b3b !important;
+        background-color: #ffffff !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        color: #ffffff !important;
+        background-color: #3b3b3b !important;
+    }
 }
