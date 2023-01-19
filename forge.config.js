@@ -11,35 +11,51 @@ module.exports = {
         }
     ],
     makers: [
-        /*{
-            name: '@electron-forge/maker-appx',
-            config: {
-                publisher: 'SatyamV7',
-                devCert: '',
-                certPass: ''
-            }
-        },*/
         {
             name: '@electron-forge/maker-squirrel',
             config: {
-                // An URL to an ICO file to use as the application icon (displayed in Control Panel > Programs and Features).
                 iconUrl: 'https://helloworldme.netlify.app/favicon.ico',
-                // The ICO file to use as the icon for the generated Setup.exe
                 setupIcon: 'src/favicon.ico',
                 loadingGif: 'src/assets/images/installing.gif'
             },
         },
-        {
-            name: '@electron-forge/maker-zip',
-            platforms: ['darwin'],
-        },
+
         {
             name: '@electron-forge/maker-deb',
-            config: {},
+            config: {
+                options: {
+                    icon: 'src/assets/icons/manifest/512.png',
+                    maintainer: 'Satyam Verma',
+                    homepage: 'https://github.com/MTSOSS/electron.hello-world.app'
+                },
+            },
+        },
+        {
+            name: '@electron-forge/maker-dmg',
+            config: {
+                icon: 'src/assets/icons/manifest/1024.icns',
+                name: 'Hello World!'
+            },
         },
         {
             name: '@electron-forge/maker-rpm',
-            config: {},
+            config: {
+                options: {
+                    homepage: 'https://github.com/MTSOSS/electron.hello-world.app'
+                }
+            }
         },
+        /*{
+    name: '@electron-forge/maker-zip',
+    platforms: ['darwin'],
+},
+{
+    name: '@electron-forge/maker-appx',
+    config: {
+        publisher: 'SatyamV7',
+        devCert: '',
+        certPass: ''
+    }
+},*/
     ],
 };
