@@ -3,7 +3,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    cursor: url(../assets/cursor/mouse_cursor.png), default !important;
     -webkit-user-select: none;
     user-select: none;
 }
@@ -16,9 +15,9 @@ html {
 
 body {
     width: 100%;
-    width: 100%;
     height: 100vh;
     display: flex;
+    -webkit-app-region: drag;
     justify-content: center;
     align-items: center;
     font-family: SPOTNIK;
