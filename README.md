@@ -7,6 +7,7 @@ A Sample Hello World! application built with :electron: electron forge
 
 
 ## Usage
+Learning purposes
 
 
 ### Installation
