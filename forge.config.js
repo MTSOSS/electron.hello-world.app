@@ -30,7 +30,7 @@ module.exports = {
                 },
             },
         },
-        /*{
+        {
             name: '@electron-forge/maker-dmg',
             config: {
                 background: 'src/assets/images/background.png',
@@ -39,7 +39,7 @@ module.exports = {
                 iconSize: 1024,
                 name: 'Hello World!'
             },
-        },*/
+        },
         {
             name: '@electron-forge/maker-rpm',
             config: {
