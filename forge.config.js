@@ -33,7 +33,10 @@ module.exports = {
         {
             name: '@electron-forge/maker-dmg',
             config: {
+                background: 'src/assets/images/background.png',
+                format: 'ULFO',
                 icon: 'src/assets/icons/manifest/1024.icns',
+                iconSize: 1024,
                 name: 'Hello World!'
             },
         },
