@@ -3,7 +3,7 @@ A Sample Hello World! application built with :electron: electron forge
 
 
 ### Version
-1.0.0
+1.1.2
 
 
 ## Usage
