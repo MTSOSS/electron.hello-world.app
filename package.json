@@ -1,7 +1,7 @@
 {
     "name": "hello-world",
     "productName": "Hello World!",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Hello World!",
     "main": "src/main.ts",
     "scripts": {
@@ -16,6 +16,7 @@
         "name": "Satyam Verma",
         "email": "satyamverma46@outlook.com"
     },
+    "repository": "https://github.com/MTSOSS/electron.hello-world.app/",
     "license": "MIT",
     "dependencies": {
         "@electron-forge/maker-dmg": "^6.0.4",
