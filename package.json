@@ -1,7 +1,7 @@
 {
     "name": "hello-world",
     "productName": "Hello World!",
-    "version": "1.2.0",
+    "version": "1.1.2",
     "description": "Hello World!",
     "main": "src/main.ts",
     "scripts": {
@@ -9,7 +9,10 @@
         "package": "electron-forge package",
         "make": "electron-forge make",
         "publish": "electron-forge publish",
-        "lint": "echo \"No linting configured\""
+        "lint": "echo \"No linting configured\"",
+        "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=src/assets/icons/manifest/1024.icns --prune=true --out=out",
+        "package-win": "electron-packager . Hello World! --overwrite --asar=true --platform=win32 --arch= --icon=src/favicon.ico --prune=true --out=out --version-string.CompanyName=Satyam Verma --version-string.FileDescription=CE --version-string.ProductName=\"Hello World!\"",
+        "package-linux": "electron-packager . Hello World! --overwrite --asar=true --platform=linux --arch=x64 --icon=src/assets/icons/manifest/512.png --prune=true --out=out"
     },
     "keywords": [],
     "author": {
