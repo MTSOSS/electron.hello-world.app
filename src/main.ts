@@ -13,12 +13,12 @@ const createWindow = () => {
     const mainWindow = new BrowserWindow({
         width: 800,
         height: 600,
-        titleBarStyle: 'hidden',
+/*        titleBarStyle: 'hidden',
         titleBarOverlay: {
             color: '#00000000',
             symbolColor: '#828282',
             height: 32
-        },
+        },*/
         autoHideMenuBar: true,
         icon: path.join(__dirname, 'favicon.ico'),
         webPreferences: {
